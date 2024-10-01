@@ -1,0 +1,31 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0px;
+    background-color:#fbffe3;
+}
+
+button{
+    background-color:#333333 ;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+nav{
+    background-color:#333333;
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align:center;
+}
+
+img{
+    padding: 10px 20px;
+    height: 600px;
+    width: 900px;
+}

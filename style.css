@@ -7,31 +7,32 @@ body {
 
 button{
     background-color:#243642;
-    color: white;
-    padding: 20px 40px;  
+    color: rgb(154, 218, 255);
+    padding: 5px 12px;  
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;  
-    font-size: 23px;
+    font-size: 40px;
 }
 
 nav{
     background-color:#243642;
-    padding: 10px 20px;
+    padding: 30px 5px;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     display: flex;
     align-items: center; 
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 80px;
+    height: 200px;
+    
 }
 
 img{
     float: left;
-    height: 70px;
-    width: 150px;
+    height: 200px;
+    width: 300px;
 }
 
 a {
@@ -39,19 +40,42 @@ a {
 }
 
 .blue{
-    color:#387478;
+    color:#8df3fa;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    line-height:1.2;
+    text-align: left;
 }
 
-.container{
+.blaze{
+    color:#387478;
+    font-size: 100px;
+    text-align: center;
+}
+
+.containertxt{
+   
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    margin-bottom: 0;
+    padding: 0;
+    
+    
+}
+
+.containerqb{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     margin-top:50px;
+    
 }
 
 .qb {
-    width: 300px;          
-    height: 625px;          
+    width: 700px;          
+    height: 1300px;          
     background-color: #629584; 
     display: flex;
     flex-direction: column; 
@@ -59,7 +83,10 @@ a {
     align-items: center;     
     padding: 20px;
     border-radius: 10px;     
-    margin: 20px auto;      
+    margin: 20px auto; 
+    animation: float 4s ease-in-out infinite; 
+    
+     
 }
 
 .qb img {
@@ -70,6 +97,54 @@ a {
 
 .qb p {
     color: white;           
-    font-size: 18px;         
+    font-size: 46px;         
     text-align: center;
+}
+
+@keyframes float {
+    0% {
+        transform: translateX(0);  
+    }
+    50% {
+        transform: translateY(-9px); 
+    }
+    100% {
+        transform: translateY(0);  
+    }
+   
+}
+.flut1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite; 
+    
+    background-color: #1c2e3a;
+    background: linear-gradient(to right, #1c2e3a, #3c5f76);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 1800px;          
+    height: 700px;          
+    display: flex;
+    
+    justify-content: flex-start;   
+    padding: 20px;    
+    margin: 20px auto;  
+}
+
+.flut2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    animation: float 2.7s ease-in-out infinite; 
+    background: linear-gradient(to right, #3f6782, #507f9e);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 1700px;          
+    height: 680px;          
+    display: flex;
+    
+    justify-content: flex-start;   
+    padding: 20px;    
+    margin: 20px auto;  
 }

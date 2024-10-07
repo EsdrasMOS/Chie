@@ -2,18 +2,19 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 0px;
-    background-color:#E2F1E7;
+    background-color:#d6f1df;
+    color:#5a829d;
 }
 
 button{
     background-color:#243642;
     color: rgb(154, 218, 255);
-    padding: 5px 12px;  
+    padding: 5px 15px;  
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;  
-    font-size: 40px;
+    font-size: 20px;
 }
 
 nav{
@@ -25,14 +26,15 @@ nav{
     align-items: center; 
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 200px;
-    
+    height: 70px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
 }
 
 img{
     float: left;
-    height: 200px;
-    width: 300px;
+    height: 70px;
+    width: 100px;
 }
 
 a {
@@ -41,7 +43,7 @@ a {
 
 .blue{
     color:#8df3fa;
-    font-size: 60px;
+    font-size: 40px;
     margin: 0;
     padding: 0;
     line-height:1.2;
@@ -50,7 +52,7 @@ a {
 
 .blaze{
     color:#387478;
-    font-size: 100px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -74,8 +76,8 @@ a {
 }
 
 .qb {
-    width: 700px;          
-    height: 1300px;          
+    width: 350px;          
+    height: auto;          
     background-color: #629584; 
     display: flex;
     flex-direction: column; 
@@ -84,20 +86,20 @@ a {
     padding: 20px;
     border-radius: 10px;     
     margin: 20px auto; 
-    animation: float 4s ease-in-out infinite; 
+    animation: float 7s ease-in-out infinite; 
     
      
 }
 
 .qb img {
-    width: 100px;           
+    width: 50px;           
     height: auto;
     margin-bottom: 20px;     
 }
 
 .qb p {
     color: white;           
-    font-size: 46px;         
+    font-size: 15px;         
     text-align: center;
 }
 
@@ -118,13 +120,13 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    animation: float 3s ease-in-out infinite; 
+    animation: float 5s ease-in-out infinite; 
     
     background-color: #1c2e3a;
     background: linear-gradient(to right, #1c2e3a, #3c5f76);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    width: 1800px;          
-    height: 700px;          
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    width: 600px;          
+    height: 350px;          
     display: flex;
     
     justify-content: flex-start;   
@@ -137,14 +139,119 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    animation: float 2.7s ease-in-out infinite; 
+    animation: float 5.1s ease-in-out infinite; 
     background: linear-gradient(to right, #3f6782, #507f9e);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    width: 1700px;          
-    height: 680px;          
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    width: 1200px;          
+    height: 350px;          
     display: flex;
     
     justify-content: flex-start;   
     padding: 20px;    
     margin: 20px auto;  
+}
+
+.flut3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    animation: float 5.1s ease-in-out infinite; 
+    background: linear-gradient(to right, #a9cde6, #2a95dc);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    width: auto;          
+    height: auto;          
+    display: flex;
+    
+    justify-content: flex-start;   
+    padding: 20px;    
+    margin: 20px auto;  
+}
+
+.flut3 img{
+    border-radius:20px;
+    height: auto;
+    width:auto;
+}
+
+.flut3 p{
+    font-size: 30px;
+}
+
+.apres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: linear-gradient(to left, #599cc9, #5a829d);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: auto;          
+    height: auto;          
+    display: flex;
+    
+    justify-content: flex-start;   
+    padding: 20px;    
+    margin: 20px auto;  
+}
+
+.apres img{
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.apres p{
+    font-size: 30px;
+    color:#99dade;
+}
+
+.sob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: linear-gradient(to left, #a6d0eb, #55b0ed);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: auto;          
+    height: auto;          
+    display: flex;
+    
+    justify-content: flex-start;   
+    padding: 20px;    
+    margin: 20px auto;  
+}
+
+
+
+.obj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: linear-gradient(to left, #599cc9, #5a829d);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    width: auto;          
+    height: auto;          
+    display: flex;
+    
+    justify-content: flex-start;   
+    padding: 20px;    
+    margin: 20px auto;  
+}
+
+.obj img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.obj p{
+    font-size: 20px;
+    color:#8ddee3;
+}
+
+.fet{
+    border-radius: 20px;
+    width: 1200px;
+    height: 500px;
 }
